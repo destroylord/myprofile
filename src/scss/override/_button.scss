@@ -1,0 +1,10 @@
+.btn {
+    padding: 14px 16px;
+    display:  inline-block;
+    font-weight: weight(bold);
+    
+    &-primary{
+        background-color: color(primary);
+        color: color(white);
+    }
+}
