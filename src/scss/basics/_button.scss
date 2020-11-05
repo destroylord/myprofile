@@ -1,0 +1,33 @@
+.btn {
+    border : none;
+    color: color(white);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: $font-size;
+    margin : 4px 2px;
+    cursor: pointer;
+
+        &-primary {
+            background-color: color(primary);
+            @include rad(2px);
+        
+        }
+        &-secondary {
+            background-color: color(secondary);
+            @include rad(4px);
+        }
+        &-success {
+            background-color: color(success);
+            @include rad(8px);
+        }
+        &-info {
+            background-color: color(info);
+            @include rad(12px);
+        }
+        &-danger {
+            background-color: color(danger);
+            @include rad(50%);
+        }
+}

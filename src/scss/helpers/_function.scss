@@ -13,7 +13,3 @@
 @function to_opacity($color, $opacity) {
   @return rgba(color($color), $opacity);
 }
-
-@function weight($key){
-    @return map-get($fonts-weights, $key);
-}

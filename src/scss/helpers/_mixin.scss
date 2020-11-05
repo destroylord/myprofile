@@ -1,0 +1,5 @@
+@mixin  rad ($radius){
+    -moz-border-radius: $radius;
+    -o-border-radius: $radius;
+    border-radius: $radius;
+}

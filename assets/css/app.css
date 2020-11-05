@@ -8,43 +8,51 @@ body {
   font-family: "Poppins", sans-serif;
   color: #ffffff !important;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: weight(medium);
 }
 
 .container {
-  max-width: 768px;
-}
-
-.card {
-  box-shadow: 0 4px rgba(0, 0, 0, 0.03);
-  width: 300px;
-  background-color: #323441;
-  border-radius: 3px;
-  border: none;
-  position: relative;
-  margin-bottom: 30px;
-}
-
-.card-header,
-.card-body,
-.card-footer {
-  background-color: transparent;
-  padding: 20px 25px;
-}
-
-.card-body {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .btn {
-  padding: 14px 16px;
+  border: none;
+  color: #ffffff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
   display: inline-block;
-  font-weight: 700;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 
 .btn-primary {
   background-color: #5f7cfe;
-  color: #ffffff;
+  border-radius: 2px;
+}
+
+.btn-secondary {
+  background-color: #cdd3d8;
+  border-radius: 4px;
+}
+
+.btn-success {
+  background-color: #1dca51;
+  border-radius: 8px;
+}
+
+.btn-info {
+  background-color: #61aafc;
+  border-radius: 12px;
+}
+
+.btn-danger {
+  background-color: #fc544b;
+  border-radius: 50%;
 }
 
