@@ -1,0 +1,24 @@
+%padding-shared {
+    padding: 25px 50px 75px 100px;
+}
+
+.alert {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: -32px;
+    margin-right: -32px;
+    @extend %padding-shared;
+    
+        &-primary {
+           @include alert-variant(color(primary));
+        }
+        &-info {
+            @include alert-variant(color(info));
+        }
+        &-success {
+            @include alert-variant(color(success));
+        }
+        &-danger {
+            @include alert-variant(color(danger));
+        }
+}

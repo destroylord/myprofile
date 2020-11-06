@@ -56,3 +56,63 @@ body {
   border-radius: 50%;
 }
 
+.card,
+.alert {
+  padding: 25px 50px 75px 100px;
+}
+
+.alert {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  margin-left: -32px;
+  margin-right: -32px;
+}
+
+.alert-primary {
+  color: #0125c3;
+  background-color: #5f7cfe;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.alert-info {
+  color: #045dc0;
+  background-color: #61aafc;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.alert-success {
+  color: #0a441b;
+  background-color: #1dca51;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.alert-danger {
+  color: #ab0b03;
+  background-color: #fc544b;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.card {
+  border-color: #ffffff;
+  background-color: #ffffff;
+  color: #6c757d;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.card-header,
+.card-body,
+.card-footer {
+  background-color: transparent;
+  padding: 20px 25px;
+}
+
+.card-body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+

@@ -3,3 +3,16 @@
     -o-border-radius: $radius;
     border-radius: $radius;
 }
+
+@mixin card_base ($color, $color-font){
+    border-color: $color;
+    background-color: $color;
+    color : $color-font;
+}
+
+@mixin alert-variant ($color) {
+     color : darken($color, 30%);
+     background-color: $color;
+     font-size: 16px;
+     font-weight: bold;
+}

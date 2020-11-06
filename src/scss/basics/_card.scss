@@ -1,5 +1,8 @@
 .card{
-    @include card_base();
+    @extend %padding-shared;
+    @include card_base(color(white), color(font));
+    font-size: 14px;
+    font-weight: bold;
     
     &-header , &-body, &-footer{
         background-color: transparent;
